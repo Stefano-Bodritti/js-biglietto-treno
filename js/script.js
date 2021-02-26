@@ -6,6 +6,11 @@ var km = prompt("Quanti chilometri devi percorrere?");
 // 2. chiedo l'età
 var eta = prompt("Quanti anni hai?");
 
+// 2bis. controllo che i dati inseriti siano corretti
+if (isNaN(km) || isNaN(eta)) {
+  alert("Devi inserire dei numeri! Ricarica la pagina!")
+}
+
 // 3. calcolo il costo
 var costo = km * 0.21;
 
