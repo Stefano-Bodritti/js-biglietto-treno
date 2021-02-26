@@ -17,3 +17,4 @@ if (eta >= 65) {
 }
 
 // 5. stampo il risultato
+document.getElementById('prezzo').innerHTML = costo.toFixed(2);
